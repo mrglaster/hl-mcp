@@ -1,4 +1,4 @@
-# HL MCP Tool
+# Half-Life MCP
 
 ## Overview
 
