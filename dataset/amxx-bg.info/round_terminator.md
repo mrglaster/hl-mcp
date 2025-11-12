@@ -1,0 +1,43 @@
+# Functions in round_terminator.inc
+Function | Description  
+---|---  
+[TerminateRound](https://amxx-bg.info/api/round_terminator/TerminateRound) | ```
+Force a round to end whatever the conditions.
+
+ Here all the possibilities of this native,
+ to avoid further questions :
+
+     // Time is up / round draw.
+
+     TerminateRound( RoundEndType_Timer );
+     TerminateRound( RoundEndType_Draw );
+
+     // One of the team has been exterminated.
+
+     TerminateRound( RoundEndType_TeamExtermination, TeamWinning_Terrorist );
+     TerminateRound( RoundEndType_TeamExtermination, TeamWinning_Ct );
+
+     // The current map objective of the team has been completed.
+
+     TerminateRound( RoundEndType_Objective, TeamWinning_Terrorist );
+     TerminateRound( RoundEndType_Objective, TeamWinning_Ct );
+
+     // The provided map objective of the team has been completed. (will work only if the related entity is present)
+
+     TerminateRound( RoundEndType_Objective, TeamWinning_Terrorist, MapType_VipAssasination );
+     TerminateRound( RoundEndType_Objective, TeamWinning_Terrorist, MapType_Bomb );
+     TerminateRound( RoundEndType_Objective, TeamWinning_Terrorist, MapType_PrisonEscape );
+     TerminateRound( RoundEndType_Objective, TeamWinning_Ct, MapType_VipAssasination );
+     TerminateRound( RoundEndType_Objective, TeamWinning_Ct, MapType_Bomb );
+     TerminateRound( RoundEndType_Objective, TeamWinning_Ct, MapType_Hostage );
+     TerminateRound( RoundEndType_Objective, TeamWinning_Ct, MapType_PrisonEscape );
+```
+  
+
+This code is a part of round_terminator.inc. To use this code you should include round_terminator.inc as ```#include <round_terminator>```
+
+
+  
+  
+
+Warning! This is an external include! It does not come bundled with AMX Mod X "out of the box" and requires additional installation. Use it only if you are absolutely certain that you need it.

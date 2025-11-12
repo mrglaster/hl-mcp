@@ -1,0 +1,31 @@
+# ze_zombie_appear
+#### Syntax
+```
+forward ze_zombie_appear();
+```
+
+#### Description
+```
+Description: Called when zombies chosen.
+```
+
+#### Return
+```
+This forward ignores the return value.
+```
+
+#### Note
+```
+This forward never called, If no chosen Zombies.
+Try use ze_zombie_appear_ex(const iFirstZombies[], iZombieNum)
+This forward is called in Escape Mode.
+```
+
+
+This code is a part of zombie_escape.inc. To use this code you should include zombie_escape.inc as ```#include <zombie_escape>```
+
+
+  
+  
+
+Warning! This is an external include! It does not come bundled with AMX Mod X "out of the box" and requires additional installation. The source of this include is Zombie Escape mod for Counter Strike 1.6.  It won't work with other games (Half-Life, DoD, etc) or without the mod installed

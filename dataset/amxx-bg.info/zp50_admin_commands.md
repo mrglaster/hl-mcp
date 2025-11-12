@@ -1,0 +1,35 @@
+# Functions in zp50_admin_commands.inc
+Function | Description  
+---|---  
+[zp_admin_commands_zombie](https://amxx-bg.info/api/zp50_admin_commands/zp_admin_commands_zombie) | ```
+Manually executes admin command: zp_zombie.
+```
+  
+[zp_admin_commands_human](https://amxx-bg.info/api/zp50_admin_commands/zp_admin_commands_human) | ```
+Manually executes admin command: zp_human.
+```
+  
+[zp_admin_commands_nemesis](https://amxx-bg.info/api/zp50_admin_commands/zp_admin_commands_nemesis) | ```
+Manually executes admin command: zp_nemesis.
+```
+  
+[zp_admin_commands_survivor](https://amxx-bg.info/api/zp50_admin_commands/zp_admin_commands_survivor) | ```
+Manually executes admin command: zp_survivor.
+```
+  
+[zp_admin_commands_respawn](https://amxx-bg.info/api/zp50_admin_commands/zp_admin_commands_respawn) | ```
+Manually executes admin command: zp_respawn.
+```
+  
+[zp_admin_commands_start_mode](https://amxx-bg.info/api/zp50_admin_commands/zp_admin_commands_start_mode) | ```
+Manually executes admin command: zp_start_game_mode.
+```
+  
+
+This code is a part of zp50_admin_commands.inc. To use this code you should include zp50_admin_commands.inc as ```#include <zp50_admin_commands>```
+
+
+  
+  
+
+Warning! This is an external include! It does not come bundled with AMX Mod X "out of the box" and requires additional installation. The include comes bundled with the Zombie Plague 5.0 mod for Counter-Strike 1.6 and will not work with other games (Half-Life, DoD, etc.) or without the Zombie Plague 5.0 mod installed.
