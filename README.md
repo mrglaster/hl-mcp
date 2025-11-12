@@ -6,10 +6,6 @@
 
 HL-MCP is a specialized MCP (Model Context Protocol) server designed to supercharge your development workflow for AMX Mod X and GoldSrc (Half-Life 1 engine) plugins and mods. Seamlessly integrating with AI-powered IDEs like Cline or Cursor, HL-MCP taps into a curated knowledge base powered by Milvus Lite—a lightweight vector database—to deliver precise, context-aware assistance tailored specifically to the GoldSrc ecosystem. 
 
-Whether you're writing native AMX Mod X scripts, debugging legacy code, or navigating obscure engine quirks, HL-MCP provides instant access to relevant documentation, community best practices, function signatures, and common patterns—retrieved intelligently based on your current code context. No more digging through outdated forums or fragmented wikis: HL-MCP brings the collective wisdom of the GoldSrc modding community right to your fingertips. 
-
-Simply connect HL-MCP as an MCP server in your favorite AI-native editor, and start coding with a knowledgeable co-pilot who speaks fluent AMX Mod X. 
-
 ---
 
 ### Pipeline
