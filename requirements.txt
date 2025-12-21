@@ -1,4 +1,5 @@
 pymilvus[milvus-lite]
 sentence-transformers
+fastmcp
 mcp[cli]
 dotenv
